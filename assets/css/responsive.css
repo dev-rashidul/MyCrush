@@ -1,0 +1,89 @@
+/* Responsive CSS */
+
+/* Min Width 1400px and Max Width 1599px */
+@media (min-width: 1400px) and (max-width: 1599px) {
+}
+
+/* Min Width 1200px and Max Width 1399px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .hero-shape {
+    position: absolute;
+    bottom: 35px;
+    right: -20px;
+  }
+}
+
+/* Min Width 992px and Max Width 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-content h2 {
+    font-size: 42px;
+    line-height: 53px;
+  }
+
+  .hero-shape {
+    bottom: 25px;
+    right: -70px;
+  }
+
+  .hero-shape img {
+    max-width: 70%;
+  }
+}
+
+/* Min Width 768px and Max Width 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  #Header {
+    padding-top: 20px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .hero-content h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .title-shape {
+    bottom: -22px;
+  }
+
+  .hero-content-bottom-text {
+    padding-top: 30px;
+    padding-left: 0;
+  }
+}
+
+/* Min Width 300px and Max Width 767px */
+@media (min-width: 300px) and (max-width: 767px) {
+  #Header {
+    padding-top: 20px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .hero-content::before {
+    width: 350px;
+    height: 350px;
+  }
+
+  .hero-content h2 {
+    font-size: 34px;
+    line-height: 45px;
+  }
+
+  .title-shape {
+    bottom: -22px;
+  }
+
+  .hero-content-bottom-text {
+    padding-top: 30px;
+    padding-left: 0;
+  }
+}
