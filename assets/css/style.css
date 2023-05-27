@@ -336,3 +336,49 @@ nav.navbar {
 /* Hero Section CSS End */
 
 /* Header Part CSS End */
+
+/* Main Part CSS Start */
+
+/* Content Img Card Section CSS Start */
+
+.content-img-wrapper {
+  padding-top: 80px;
+}
+
+.content-img-card {
+  padding-top: 100px;
+}
+
+.content-img-card-img img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.emoji {
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.content-img-card-content h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #120f0f;
+}
+
+.content-img-card-content p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #7e6a6a;
+  padding-top: 7px;
+  margin-bottom: 0;
+}
+
+/* Content Img Card Section CSS End */
+
+/* Main Part CSS End */

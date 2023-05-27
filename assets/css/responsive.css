@@ -15,7 +15,8 @@
 
 /* Min Width 992px and Max Width 1199px */
 @media (min-width: 992px) and (max-width: 1199px) {
-  .hero-content h2 {
+  .hero-content h2,
+  .content-img-card-content h2 {
     font-size: 42px;
     line-height: 53px;
   }
@@ -41,7 +42,8 @@
     width: 100%;
   }
 
-  .hero-content h2 {
+  .hero-content h2,
+  .content-img-card-content h2 {
     font-size: 36px;
     line-height: 45px;
   }
@@ -85,5 +87,27 @@
   .hero-content-bottom-text {
     padding-top: 30px;
     padding-left: 0;
+  }
+
+  .content-img-card-content h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .content-img-card-content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .content-img-wrapper {
+    padding-top: 0;
+  }
+
+  .content-img-card {
+    padding-top: 60px;
+  }
+
+  .content-img-card-content {
+    padding-top: 30px;
   }
 }
