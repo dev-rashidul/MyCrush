@@ -146,8 +146,16 @@ nav.navbar {
   line-height: 24px;
   color: #ffffff;
   background: #f54a4a;
+  border: 1px solid #f54a4a;
   padding: 18px 32px;
   border-radius: 100px;
+  transition: all 0.3s ease-in-out;
+}
+
+.download-btn:hover {
+  color: #f54a4a;
+  background: transparent;
+  border: 1px solid #f54a4a;
 }
 
 .navbar-toggler {
