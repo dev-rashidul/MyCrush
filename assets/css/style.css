@@ -48,6 +48,13 @@ body {
   font-weight: 700;
 }
 
+/* Zapfino Font */
+
+@font-face {
+  font-family: "Zapfino";
+  src: url(../font/Zapfino.ttf);
+}
+
 ol,
 ul {
   padding: 0;
@@ -231,6 +238,10 @@ nav.navbar {
   .navbar-nav {
     padding-top: 25px;
   }
+
+  .nav-link::after {
+    left: 11px;
+  }
 }
 
 /* Navigation Section CSS End */
@@ -389,4 +400,340 @@ nav.navbar {
 
 /* Content Img Card Section CSS End */
 
+/* Join Us Section CSS Start */
+
+.join-us-wrapper {
+  padding: 100px 0;
+  margin: 100px 30px;
+  background: #fffbf5;
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.join-us-img {
+  transform: translateX(43%);
+}
+
+.join-us-content h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #120f0f;
+}
+
+.join-us-content h2 span {
+  position: relative;
+  color: #f32424;
+}
+
+.join-us-border {
+  position: absolute;
+  left: 0;
+  top: -20px;
+}
+
+.join-us-content p {
+  font-size: 20px;
+  color: #7e6a6a;
+  padding-top: 5px;
+}
+
+/* Join Us Section CSS End */
+
+/* Team Section CSS Start */
+
+.team-wrapper {
+  background: #fef4f4;
+  margin-top: 200px;
+  padding-bottom: 100px;
+}
+
+.team-img {
+  position: relative;
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+}
+
+.team-img img {
+  position: relative;
+  max-width: 960px;
+  width: 100%;
+  min-height: 500px;
+  max-height: 500px;
+  height: 100%;
+  margin-top: -100px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.team-content {
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  padding-top: 60px;
+  z-index: 1;
+}
+
+.team-content::before {
+  position: absolute;
+  content: "";
+  top: -150px;
+  left: 0;
+  max-width: 500px;
+  width: 100%;
+  min-height: 500px;
+  max-height: 500px;
+  height: 100%;
+  background: rgba(245, 74, 74, 0.19);
+  filter: blur(100px);
+  transform: rotate(36.65deg);
+  z-index: -1;
+}
+
+.team-content::after {
+  position: absolute;
+  content: "";
+  top: -150px;
+  right: -100px;
+  max-width: 600px;
+  width: 100%;
+  min-height: 600px;
+  max-height: 600px;
+  height: 100%;
+  background: rgba(255, 197, 98, 0.28);
+  filter: blur(100px);
+  transform: rotate(36.65deg);
+  z-index: -1;
+}
+
+.team-content h2 {
+  font-family: "Zapfino";
+  font-style: italic;
+  font-size: 85px;
+  color: #000000;
+}
+
+.team-content p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #7e6a6a;
+  margin-top: -10px;
+}
+
+.team-content a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f54a4a;
+}
+
+/* Team Section CSS End */
+
+/* Download App Section CSS Start */
+
+.download-app-wrapper {
+  margin-top: 100px;
+}
+
+.download-app-container {
+  background: url(../images/download-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 100px;
+  border-radius: 30px;
+}
+
+.download-app-content {
+  max-width: 450px;
+}
+
+.download-app-content h3 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #fef4f4;
+}
+
+.download-app-content p {
+  font-size: 18px;
+  line-height: 22px;
+  color: #fddddd;
+  padding-top: 10px;
+  margin: 0;
+}
+
+/* Download App Section CSS End */
+
 /* Main Part CSS End */
+
+/* Footer Part CSS Start */
+
+.footer-wrapper {
+  padding-top: 100px;
+}
+
+.footer-container {
+  padding-bottom: 50px;
+}
+
+.footer-menu ul li {
+  padding: 0 20px;
+}
+
+.footer-menu ul li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #12141d;
+}
+
+.footer-social ul li {
+  padding-left: 30px;
+}
+
+.footer-social ul li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #12141d;
+}
+
+.footer-wrapper hr {
+  border-top: 1px solid #d0d0d2;
+  opacity: 1;
+  margin: 0;
+}
+
+.footer-copyright {
+  padding: 30px 0;
+}
+
+.footer-copyright p,
+.footer-copyright ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #5a4c4c;
+}
+
+.footer-copyright ul li {
+  padding-left: 30px;
+}
+
+/* Footer Part CSS End */
+
+/* Testimonial Section CSS Start */
+
+.testimonial-wrapper {
+  padding-top: 100px;
+}
+
+.testimonial-title {
+  position: relative;
+  max-width: 650px;
+  width: 100%;
+  padding: 20px 0 50px 70px;
+}
+
+.testimonial-title h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+  color: #120f0f;
+}
+
+.quote-icon {
+  position: absolute;
+  top: -15px;
+  left: -10px;
+  z-index: -1;
+}
+
+.testimonial-slide {
+  max-width: 550px;
+  position: relative;
+}
+
+.testimonial-slide::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -60px;
+  width: 2px;
+  height: 100%;
+  background: #dcd7d7;
+}
+
+.testimonial-slide h3 {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  color: #120f0f;
+}
+
+.testimonial-slide p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7e6a6a;
+  padding-top: 10px;
+}
+
+.customer-img {
+  width: 56px;
+  margin-right: 18px;
+}
+
+.customer-img img {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+.customer-name p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #120f0f;
+}
+
+.owl-carousel .owl-nav.disabled {
+  display: block;
+}
+
+.owl-prev,
+.owl-next {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #afabab !important;
+  border-radius: 100% !important;
+}
+
+.owl-next {
+  border: 1px solid #352d2d !important;
+}
+
+.owl-prev i {
+  color: #afabab;
+}
+
+.owl-prev {
+  position: absolute;
+  top: -180px;
+  right: 80px;
+}
+
+.owl-next {
+  position: absolute;
+  top: -180px;
+  right: 0px;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+  color: #352d2d !important;
+  background: none !important;
+}
+
+/* Testimonial Section CSS End */

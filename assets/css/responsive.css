@@ -11,12 +11,22 @@
     bottom: 35px;
     right: -20px;
   }
+
+  .join-us-img {
+    transform: translateX(17%);
+  }
+
+  .testimonial-slide {
+    max-width: 450px;
+  }
 }
 
 /* Min Width 992px and Max Width 1199px */
 @media (min-width: 992px) and (max-width: 1199px) {
   .hero-content h2,
-  .content-img-card-content h2 {
+  .content-img-card-content h2,
+  .join-us-content h2,
+  .testimonial-title h2 {
     font-size: 42px;
     line-height: 53px;
   }
@@ -28,6 +38,14 @@
 
   .hero-shape img {
     max-width: 70%;
+  }
+
+  .join-us-img {
+    transform: translateX(20%);
+  }
+
+  .testimonial-slide {
+    max-width: 350px;
   }
 }
 
@@ -43,7 +61,9 @@
   }
 
   .hero-content h2,
-  .content-img-card-content h2 {
+  .content-img-card-content h2,
+  .join-us-content h2,
+  .testimonial-title h2 {
     font-size: 36px;
     line-height: 45px;
   }
@@ -56,6 +76,22 @@
     padding-top: 30px;
     padding-left: 0;
   }
+
+  .join-us-img {
+    transform: translateX(20%);
+  }
+
+  .team-content::after {
+    right: 0;
+  }
+
+  .team-content h2 {
+    font-size: 54px;
+  }
+
+  .testimonial-slide::after {
+    display: none;
+  }
 }
 
 /* Min Width 300px and Max Width 767px */
@@ -67,7 +103,7 @@
   .hero-content {
     max-width: 100%;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 0;
   }
 
   .hero-content::before {
@@ -75,7 +111,10 @@
     height: 350px;
   }
 
-  .hero-content h2 {
+  .hero-content h2,
+  .content-img-card-content h2,
+  .join-us-content h2,
+  .testimonial-title h2 {
     font-size: 34px;
     line-height: 45px;
   }
@@ -94,7 +133,9 @@
     line-height: 40px;
   }
 
-  .content-img-card-content p {
+  .content-img-card-content p,
+  .team-content p,
+  .download-app-content p {
     font-size: 16px;
     line-height: 24px;
   }
@@ -109,5 +150,97 @@
 
   .content-img-card-content {
     padding-top: 30px;
+  }
+
+  .hero-content-bottom-text {
+    padding-top: 30px;
+    padding-left: 0;
+  }
+
+  .join-us-wrapper {
+    margin: 60px 0;
+  }
+
+  .join-us-img {
+    transform: translateX(4%);
+  }
+
+  .team-img img {
+    max-width: 100%;
+    width: 100%;
+    min-height: 175px;
+    max-height: 175px;
+    height: 100%;
+  }
+
+  .team-content {
+    max-width: 100%;
+  }
+
+  .team-content::before {
+    max-width: 300px;
+    width: 100%;
+    top: 0px;
+    left: -150px;
+  }
+
+  .team-content::after {
+    max-width: 300px;
+    width: 100%;
+    top: 0px;
+    right: 140px;
+  }
+
+  .team-content h2 {
+    font-size: 45px;
+  }
+
+  .testimonial-slide::after {
+    display: none;
+  }
+
+  .testimonial-title {
+    padding: 20px 0 100px 70px;
+  }
+
+  .owl-prev,
+  .owl-next {
+    width: 50px;
+    height: 50px;
+  }
+
+  .owl-prev {
+    position: absolute;
+    top: -90px;
+    left: 0px;
+  }
+
+  .owl-next {
+    position: absolute;
+    top: -90px;
+    left: 65px;
+  }
+
+  .download-app-container {
+    background: url(../images/download-bg-mobile.png);
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .download-app-content h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .download-sources {
+    padding-top: 30px;
+  }
+
+  .footer-menu {
+    padding-bottom: 30px;
+  }
+
+  .footer-copyright {
+    text-align: center;
   }
 }
