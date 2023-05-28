@@ -243,4 +243,28 @@
   .footer-copyright {
     text-align: center;
   }
+
+  .comming-soon-container {
+    padding: 100px 0;
+  }
+
+  .coming-soon-content h2 {
+    font-size: 42px;
+    padding-bottom: 35px;
+  }
+
+  .coming-soon-content h3 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .form-input-filed {
+    max-width: 70%;
+    width: 100%;
+  }
+
+  .form-btn-filed {
+    max-width: 26%;
+    width: 100%;
+  }
 }
