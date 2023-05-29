@@ -358,17 +358,17 @@ nav.navbar {
 
 /* Main Part CSS Start */
 
-/* Content Img Card Section CSS Start */
+/* Features Section CSS Start */
 
-.content-img-wrapper {
+.features-wrapper {
   padding-top: 80px;
 }
 
-.content-img-card {
+.features-card {
   padding-top: 100px;
 }
 
-.content-img-card-img img {
+.features-card-img img {
   max-width: 100%;
   width: 100%;
   height: 100%;
@@ -383,14 +383,14 @@ nav.navbar {
   transform: translateY(-50%);
 }
 
-.content-img-card-content h2 {
+.features-card-content h2 {
   font-size: 48px;
   font-weight: 500;
   line-height: 50px;
   color: #120f0f;
 }
 
-.content-img-card-content p {
+.features-card-content p {
   font-size: 18px;
   line-height: 28px;
   color: #7e6a6a;
@@ -398,7 +398,7 @@ nav.navbar {
   margin-bottom: 0;
 }
 
-/* Content Img Card Section CSS End */
+/* Features Section CSS End */
 
 /* Join Us Section CSS Start */
 
@@ -441,22 +441,22 @@ nav.navbar {
 
 /* Join Us Section CSS End */
 
-/* Team Section CSS Start */
+/* About-us Section CSS Start */
 
-.team-wrapper {
+.about-us-wrapper {
   background: #fef4f4;
   margin-top: 200px;
   padding-bottom: 100px;
 }
 
-.team-img {
+.about-us-img {
   position: relative;
   max-width: 960px;
   width: 100%;
   margin: auto;
 }
 
-.team-img img {
+.about-us-img img {
   position: relative;
   max-width: 960px;
   width: 100%;
@@ -468,7 +468,7 @@ nav.navbar {
   border-radius: 30px;
 }
 
-.team-content {
+.about-us-content {
   position: relative;
   max-width: 800px;
   width: 100%;
@@ -477,7 +477,7 @@ nav.navbar {
   z-index: 1;
 }
 
-.team-content::before {
+.about-us-content::before {
   position: absolute;
   content: "";
   top: -150px;
@@ -493,7 +493,7 @@ nav.navbar {
   z-index: -1;
 }
 
-.team-content::after {
+.about-us-content::after {
   position: absolute;
   content: "";
   top: -150px;
@@ -509,14 +509,14 @@ nav.navbar {
   z-index: -1;
 }
 
-.team-content h2 {
+.about-us-content h2 {
   font-family: "Zapfino";
   font-style: italic;
   font-size: 85px;
   color: #000000;
 }
 
-.team-content p {
+.about-us-content p {
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
@@ -524,13 +524,13 @@ nav.navbar {
   margin-top: -10px;
 }
 
-.team-content a {
+.about-us-content a {
   font-size: 16px;
   font-weight: 700;
   color: #f54a4a;
 }
 
-/* Team Section CSS End */
+/* About-us Section CSS End */
 
 /* Download App Section CSS Start */
 

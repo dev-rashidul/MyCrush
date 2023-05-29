@@ -24,7 +24,7 @@
 /* Min Width 992px and Max Width 1199px */
 @media (min-width: 992px) and (max-width: 1199px) {
   .hero-content h2,
-  .content-img-card-content h2,
+  .features-card-content h2,
   .join-us-content h2,
   .testimonial-title h2 {
     font-size: 42px;
@@ -61,7 +61,7 @@
   }
 
   .hero-content h2,
-  .content-img-card-content h2,
+  .features-card-content h2,
   .join-us-content h2,
   .testimonial-title h2 {
     font-size: 36px;
@@ -81,11 +81,11 @@
     transform: translateX(20%);
   }
 
-  .team-content::after {
+  .about-us-content::after {
     right: 0;
   }
 
-  .team-content h2 {
+  .about-us-content h2 {
     font-size: 54px;
   }
 
@@ -112,7 +112,7 @@
   }
 
   .hero-content h2,
-  .content-img-card-content h2,
+  .features-card-content h2,
   .join-us-content h2,
   .testimonial-title h2 {
     font-size: 34px;
@@ -128,27 +128,27 @@
     padding-left: 0;
   }
 
-  .content-img-card-content h2 {
+  .features-card-content h2 {
     font-size: 32px;
     line-height: 40px;
   }
 
-  .content-img-card-content p,
-  .team-content p,
+  .features-card-content p,
+  .about-us-content p,
   .download-app-content p {
     font-size: 16px;
     line-height: 24px;
   }
 
-  .content-img-wrapper {
+  .features-wrapper {
     padding-top: 0;
   }
 
-  .content-img-card {
+  .features-card {
     padding-top: 60px;
   }
 
-  .content-img-card-content {
+  .features-card-content {
     padding-top: 30px;
   }
 
@@ -173,7 +173,7 @@
     transform: translateX(4%);
   }
 
-  .team-img img {
+  .about-us-img img {
     max-width: 100%;
     width: 100%;
     min-height: 175px;
@@ -181,25 +181,25 @@
     height: 100%;
   }
 
-  .team-content {
+  .about-us-content {
     max-width: 100%;
   }
 
-  .team-content::before {
+  .about-us-content::before {
     max-width: 300px;
     width: 100%;
     top: 0px;
     left: -150px;
   }
 
-  .team-content::after {
+  .about-us-content::after {
     max-width: 300px;
     width: 100%;
     top: 0px;
     right: 140px;
   }
 
-  .team-content h2 {
+  .about-us-content h2 {
     font-size: 45px;
   }
 
