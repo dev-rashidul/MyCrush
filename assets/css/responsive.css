@@ -152,6 +152,14 @@
     padding-top: 30px;
   }
 
+  .emoji {
+    left: -15px;
+  }
+
+  .emoji img {
+    width: 60px;
+  }
+
   .hero-content-bottom-text {
     padding-top: 30px;
     padding-left: 0;
@@ -223,6 +231,8 @@
 
   .download-app-container {
     background: url(../images/download-bg-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 60px 20px;
     text-align: center;
   }
@@ -242,6 +252,10 @@
 
   .footer-copyright {
     text-align: center;
+  }
+
+  .footer-copyright ul li {
+    padding: 0 15px;
   }
 
   .comming-soon-container {
