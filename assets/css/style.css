@@ -818,11 +818,13 @@ Coming Soon Page CSS
 }
 
 .form-input-filed {
-  max-width: 80%;
+  max-width: 100%;
   width: 100%;
+  margin-bottom: 20px;
 }
 
-.form-input-filed input {
+.form-input-filed input,
+.form-input-filed select {
   width: 100%;
   background: rgba(255, 255, 255, 0.3);
   padding: 12px 24px;
@@ -830,7 +832,8 @@ Coming Soon Page CSS
   border-radius: 64px;
 }
 
-.form-input-filed input:focus {
+.form-input-filed input:focus,
+.form-input-filed select:focus {
   outline: 0;
 }
 
@@ -851,7 +854,7 @@ Coming Soon Page CSS
   border-radius: 100px;
 }
 
-.coming-soon-form ::placeholder {
+.coming-soon-form-container ::placeholder {
   font-size: 16px;
   font-weight: 600;
   color: #f99999;
